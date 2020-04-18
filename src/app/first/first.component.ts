@@ -6,5 +6,10 @@ import {Component} from '@angular/core' ;
   styleUrls: ['first.component.css']
 })
 export class firstComponent{
+  authorName:string = 'Rajeev';
+
+  testInterpolation (){
+    return 'returned from function';
+  }
 
 }
