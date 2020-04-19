@@ -12,4 +12,10 @@ export class SecondComponentComponent implements OnInit {
   ngOnInit() {
   }
 
+    imageUrl:string = "../../assets/favicon.ico";
+    secondHeading:string = "this is second heading";
+
+    changeValue(){
+        this.secondHeading = "change on click of button";
+    }
 }

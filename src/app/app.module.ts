@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { firstComponent } from './first/first.component' ;
 import { AppComponent } from './app.component';
 import { SecondComponentComponent } from './second-component/second-component.component';
+import { GOTCharacterComponent } from './gotcharacter/gotcharacter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     firstComponent,
-    SecondComponentComponent
+    SecondComponentComponent,
+    GOTCharacterComponent
   ],
   imports: [
     BrowserModule
